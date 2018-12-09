@@ -16,7 +16,7 @@ body, html {
 .bgimg-1 {
     background-position: center;
     background-size: cover;
-    background-image: url("/agriculture-field-forest-1686.jpg");
+    background-image: "/agriculture-field-forest-1686.jpg";
     min-height: 100%;
 }
 .w3-bar .w3-button {
