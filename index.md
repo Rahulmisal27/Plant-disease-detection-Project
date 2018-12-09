@@ -1,62 +1,60 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles.css">
-	<title>HTML5 Tutorial</title>
-	<script src="excanvas.js"></script>
-</head>
-    <h2>Rahul Misal</h2>
+<!DOCTYPE html>
+<html>
+<title>Transforming Indian Agriculture</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
 <body>
-  <style type="text/css">
-   .connect-icon{text-align: right;}
-   .connect-icon a{
-     margin-top: 20%;
-     margin-left: 10px;}
-   .connect-icon a:hover{opacity: 0.5;transition: all 0.5s ease;}
-  .connect-icon a.behance{margin-top: -10px;}
-   .arrowbob {
-   z-index: 0;
-   position: relative;
-   -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
-   -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
-   box-shadow: 0px 10px 43px -14px black;
-   margin: auto;
-   margin-top: 320px;
-   bottom: 10px;
-   width: 24px;
-   height: 24px;
-   background-image: url(data:/home/rahul/Pictures/IMG_20180610_081623220.jpg;base64,);
-   background-size: contain;
-   background-repeat: no-repeat; }
- </style>
-  <p>
-    Being a technophile, I am creative, hardworking and principle centered individual who always
-    eager to learn new technologies and strives to achieve the highest standard possible, at any
-    given task. My greatest strengths are strong numerical and analytical skills, ability explorer and
-    Ability to work as individual as well as in group. I always want to utilize all my knowledge and
-    experiences resulting with an innovative approach.  </p>
-    <div class="container">
-        <div class="col-sm-10 col-sm-offset-1" id="indexwrapper">
 
-
-
-<h2>Recent Exciting Things!</h2>
-
-<a href="/Projects.html">
-<div class="post">
-<img style="width:20%; height: 20%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="/projects.png">
-<h4 style="margin-top:8px; font-size:95%;">Collge Time Projects</h4>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 </div>
-</a>
 
-<a href="https://www.kaggle.com/rdmisal/world-data-analysis">
-<div class="post">
-<img style="width:20%; height: 20%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="/download.jpeg">
-<h4 style="margin-top:8px; font-size:95%;">Data Science Projects</h4>
-<legend>Checkout all data science projects</legend>
-</div>
-</a>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
 
-</body>
-</html>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Lets transform Indian Agriculture</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Lets transform Indian Agriculture</span><br>
+    <span class="w3-large">Lets make agriculture a organised sector.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
